@@ -25,3 +25,8 @@ Interest about IT started when I was on my second child's maternity leave - afte
 I live in Tartu, Estonia. I have learned Html/CSS and SQL but that was few years ago. Right now I'm interested in learning more and more about IT because I don't want to stay in comfort zone.
 
 I also like video games and am currently playing Ghost of Tsushima :video_game:
+
+
+### Visionaries Balancing Life and Work
+
+Together as a team we exemplify the spirit of visionaries, skillfully balancing our family responsibilities, professional growth, and personal interests. We embrace the challenges of learning new technologies, driven by a shared passion for IT and a determination to create better futures for ourselves and our families. Our stories inspire others to pursue their dreams, no matter how demanding the journey may be.
