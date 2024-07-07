@@ -8,7 +8,7 @@ Our team members are:
 
 ### A little bit about us
 
-**Linda**
+**Linda**:gemini:
 
 I am from Latvia, Riga. I have 2 daughters and at the moment I'm trying to balance starting my youngest daughter's kindergarten, family, work, and the WoTech course + somewhere in between I still need to find time for rest 😄  I have no previous experience in programming and I feel that this course is challenging, but I'm optimistic about the end result. Of the two programming languages, I like Python :snake: more than Java.
 
