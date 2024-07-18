@@ -2,8 +2,9 @@
 _Team 19 Repository_
 
 Our team members are:
-* Linda Dilba
+* Linda
 * Marilyn
+* Rita
 * Astrid
 
 ### A little bit about us
@@ -18,6 +19,12 @@ Interest about IT started when I was on my second child's maternity leave - afte
 
 
 **Marilyn**
+
+
+
+**Rita**
+
+
 
 
 **Astrid**:taurus:
