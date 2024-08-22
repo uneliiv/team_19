@@ -1,0 +1,35 @@
+# Calculate total Sales by City
+
+SELECT Owners.City, SUM(Procedures.Price) AS TotalSales
+FROM Sales
+LEFT JOIN Procedures ON Sales.ProcedureCode = Procedures.ProcedureCode
+LEFT JOIN Pets ON Sales.PetID = Pets.PetID
+LEFT JOIN Owners ON Owners.OwnerID = Pets.OwnerID
+GROUP BY Owners.City
+ORDER BY TotalSales DESC;
+
+# Calculate total Sales by Pet Kind
+
+SELECT Pets.Kind, SUM(Procedures.Price) as TotalSales
+FROM Sales
+left join Procedures ON Sales.ProcedureCode = Procedures.ProcedureCode
+LEFT JOIN Pets ON Sales.PetID = Pets.PetID
+GROUP BY Pets.Kind
+ORDER BY TotalSales DESC
+
+# Calculate total Sales by City and Pet Kind
+
+SELECT Pets.Kind, Owners.City, SUM(Procedures.Price) AS SalesByCityAndKind
+FROM Sales LEFT JOIN Pets ON Sales.PetID = Pets.PetID LEFT JOIN Owners ON Pets.OwnerID = Owners.OwnerID LEFT JOIN Procedures ON Sales.ProcedureCode = Procedures.ProcedureCode
+GROUP BY Pets.Kind, Owners.City
+ORDER BY SalesByCityAndKind DESC;
+
+# Calculate Average sales by City
+
+SELECT Pets.Kind, Owners.City, SUM(Procedures.Price) AS SalesByCityAndKind
+FROM Sales 
+LEFT JOIN Pets ON Sales.PetID = Pets.PetID 
+LEFT JOIN Owners ON Pets.OwnerID = Owners.OwnerID 
+LEFT JOIN Procedures ON Sales.ProcedureCode = Procedures.ProcedureCode
+GROUP BY Pets.Kind, Owners.City
+ORDER BY SalesByCityAndKind DESC;
